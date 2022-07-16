@@ -1,0 +1,130 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    background-color: black;
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 245, 238, 0.5);
+    display: inline-flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+h2 {
+    font-size: 32px;
+}
+
+#logo {
+    height: 50px;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    width: 25%;
+}
+
+header nav a:hover {
+    color: rgba(255, 253, 201, 0.9);
+    text-shadow: 1px 1px 1px;
+}
+
+#mission {
+    position: relative;
+}
+
+.our-mission {
+    background-color: black;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    z-index: 3;
+}
+
+.text {
+    margin: 20px;
+}
+
+.featured {
+    display: inline-flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.totm {
+    padding-top: 50px;
+}
+
+.container {
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.featured img {
+    height: 200px;
+    width: 300px;
+    margin: 0 15px;
+}
+
+.feautured h4 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#locations {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    background-position: 50% 25%;
+}
+
+.box {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    line-height: 1px;
+    width: 25%;
+}
+
+footer {
+    height: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.contact {
+    height: 50px;
+    display: inline-block;
+    line-height: 2px;
+}
